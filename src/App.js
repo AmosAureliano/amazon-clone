@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Components/Header/Header';
+import CarrouselHome from './Components/Carrousel/index';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
@@ -15,6 +16,7 @@ function App() {
           </Route>
           <Route path="/" exact>
             <Header/>
+            <CarrouselHome />
           </Route>
         </Switch>
       </div>
