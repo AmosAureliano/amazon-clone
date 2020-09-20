@@ -1,0 +1,19 @@
+.body{
+    background-color: rgb(237, 243, 241);
+}
+
+.time-line-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -20%;
+    position: relative;
+}
+
+@media(max-width: 760px){
+    .time-line-products{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -40%;
+    }
+}

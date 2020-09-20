@@ -1,0 +1,24 @@
+.product{
+    background-color: #ffff;
+    padding: 1.5%;
+    width: 20%;
+}
+.rating{
+    display: flex;
+    margin-top: 5%;
+}
+button{
+    margin-top: 5%;
+    background-color: #cd9042;
+    color: #fff;
+    border: none;
+    border-radius: 2%;
+}
+
+@media(max-width: 760px){
+    .product{
+        width: 60%;
+        margin-bottom: 5%;
+        padding: 3%;
+    }
+}
