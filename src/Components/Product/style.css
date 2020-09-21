@@ -9,6 +9,7 @@
 }
 .product img{
     width: 80%;
+    align-self: center;
 }
 .product button{
     margin-top: 5%;
@@ -16,6 +17,8 @@
     color: #fff;
     border: none;
     border-radius: 2%;
+    position: relative;
+    bottom: 0px;    
 }
 
 @media(max-width: 760px){

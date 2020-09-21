@@ -1,11 +1,15 @@
 import { FunctionsTwoTone } from '@material-ui/icons';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Login(){
     return(
         <div className="body-login">
-            <img src="https://logodownload.org/wp-content/uploads/2014/04/amazon-logo-4.png" id="logo"/>
+            <Link to="/">
+                <img src="https://logodownload.org/wp-content/uploads/2014/04/amazon-logo-4.png" id="logo"/>
+            </Link>
+            
             <div className="container">
                 <h1>Fazer Login</h1>
                 <label>Email ou número de telefone celular</label>

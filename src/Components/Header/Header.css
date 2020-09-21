@@ -14,6 +14,7 @@
 .search{
     display: flex;
     flex: 1;
+    
 }
 .departaments-options{
     width: 70px;
@@ -30,7 +31,7 @@
 }
 .search-box-input{
     height: 12px;
-    padding: 10px;
+    padding: 12px;
     border: none;
     outline-style: none;
     flex: 1;
@@ -40,7 +41,8 @@
     background-color: #e9ab5b;
     cursor: pointer;
     padding: 5px;
-    height: 22px !important;
+    height: 27px !important;
+
 }
 .search-icon:hover{
     background-color: #cd9042;

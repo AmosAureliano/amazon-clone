@@ -6,6 +6,7 @@ export default function Checkout(){
     return(
         <div>
             <Header/>
+            <h4>Seu carrinho de compras está vazio</h4>
         </div>
     );
 }
