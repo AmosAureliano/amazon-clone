@@ -7,7 +7,10 @@
     display: flex;
     margin-top: 5%;
 }
-button{
+.product img{
+    width: 80%;
+}
+.product button{
     margin-top: 5%;
     background-color: #cd9042;
     color: #fff;

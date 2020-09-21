@@ -9,11 +9,35 @@
     margin-top: -20%;
     position: relative;
 }
+.products{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.back-to-nav{
+    width: 100%;
+    background-color: #37475A;
+    padding: 1%;
+    border-radius: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.back-to-nav:hover{
+    background-color: #425163;
+}
+.back-to-nav a{
+    color: #FFFF;
+    text-decoration: none;
+}
 
 @media(max-width: 760px){
     .time-line-products{
         flex-direction: column;
         align-items: center;
         margin-top: -40%;
+    }
+    .products{
+        flex-direction: column;
+        align-items: center;
     }
 }

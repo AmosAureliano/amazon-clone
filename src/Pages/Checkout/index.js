@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
-
+import Header from '../../Components/Header/Header'
 
 export default function Checkout(){
     return(
         <div>
-            <h1>Checkout</h1>
+            <Header/>
         </div>
     );
 }

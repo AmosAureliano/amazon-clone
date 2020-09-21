@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Search, ShoppingCartOutlined }  from '@material-ui/icons';
 export default function Header(){
     return(
-        <nav className="header">
+        <nav className="header" id="nav">
             <Link to="/">
                 <img 
                 src="https://jordantravers.com/wp-content/uploads/2018/10/Amazon-Logo-1024x373.png" 

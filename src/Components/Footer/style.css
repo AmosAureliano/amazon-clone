@@ -1,0 +1,17 @@
+.footer{
+    background-color: #232F3E;
+    color: #FFFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.h2-footer{
+    font-size: 1rem;
+    text-align: center;
+}
+.lista-footer{
+    list-style: none;
+    align-self: initial;
+    font-size: 0.8rem;
+    margin-top: 4%;
+}
