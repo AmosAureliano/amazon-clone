@@ -14,5 +14,19 @@ Clone da loja de varejo online Amazon (Brasil). Esse projeto tem como objetivo p
 <ul>
   <li><a href=https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom >React Router Dom</a></li>
   <li><a href=https://material-ui.com/pt/ >Material Ui</a></li>
+  <li><a href=https://react-responsive-carousel.js.org/>React Responsive Carrousel</a></li>
   
 </ul>
+
+<h2>Como utilizar</h2>
+<p>1. Baixe o repositório ou <b>Execute o programa <i>git clone</i></b>
+    <br><br>
+  2. Após entrar na pasta do projeto, execute no seu terminal os seguintes comandos: <br>
+    Caso utilize o yarn: yarn install <br>
+    Caso utilize node.js instalado: npm install
+    <br><br>
+  3. Execute o Projeto
+  <br><br>
+  Com o yarn instalado: yarn start
+  Com o node.js instalado: npm start
+</p>
