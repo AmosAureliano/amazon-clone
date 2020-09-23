@@ -22,8 +22,8 @@ Clone da loja de varejo online Amazon (Brasil). Esse projeto tem como objetivo p
   <div>
         <img src="https://img.shields.io/badge/node-12.18.0-green" />
         <img src="https://img.shields.io/badge/npm-6.14.4-blue" />
- 
-    </div>
+   </div>
+   
 <h2>Como utilizar ❓</h2>
 <p>1. Baixe o repositório ou <b>Execute o programa <i>git clone</i></b>
     <br><br>
