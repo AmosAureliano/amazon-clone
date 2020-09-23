@@ -3,9 +3,9 @@
 <h2 align=center>
   
   <img src="https://i.imgur.com/lAuAA6H.jpg" width=700px/>
-  Home
+  <p>Home</p>
    <img src="https://i.imgur.com/onHgrex.jpg" width=700px/>
-   Tela Login
+   <p>Tela Login</p>
 </h2>
 
 <h2>Descrição 📚</h2>
