@@ -32,6 +32,6 @@ Clone da loja de varejo online Amazon (Brasil). Esse projeto tem como objetivo p
   Com o node.js instalado: npm start
 </p>
 
-<footer align=center>
+<h2 align=center>
   <p>Desenvolvido por <a href=https://www.linkedin.com/in/am%C3%B3s-aureliano-689a36187/>Amós Aureliano</a></p>
-</footer>
+</h2>
