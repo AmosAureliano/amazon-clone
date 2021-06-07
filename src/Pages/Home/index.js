@@ -40,7 +40,6 @@ export default function Home(){
                     rating={4}
                     image="https://images-na.ssl-images-amazon.com/images/I/71H%2B2pcsNPL._AC_SX679_.jpg"
                 />
-                
             </div>
             
             <div className="products">
@@ -75,7 +74,6 @@ export default function Home(){
                     image="https://images-na.ssl-images-amazon.com/images/I/91v6C7U3NKL._AC_SX679_.jpg"
                 />
             </div>
-
             <button className="back-to-nav"><a href="#nav">Voltar ao início</a></button>
             <Footer />
         </div>
