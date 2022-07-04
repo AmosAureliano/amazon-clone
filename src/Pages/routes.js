@@ -3,20 +3,18 @@ import Checkout from './Checkout';
 import Login from './Login';
 import Home from './Home/index';
 
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
-export default function Routes(){
+export default function Root(){
     return(
         <BrowserRouter>
-            <Switch>
+            <Routes>
                 <Route path="/checkout" component={Checkout} />
                 
                 <Route path="/login" component={Login} />
                 
                 <Route path="/" exact component={Home} />
-            </Switch>
-          
-            
+            </Routes>
         </BrowserRouter>
     );
 }

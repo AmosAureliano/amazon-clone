@@ -1,4 +1,3 @@
-import { FunctionsTwoTone } from '@material-ui/icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
@@ -7,7 +6,7 @@ export default function Login(){
     return(
         <div className="body-login">
             <Link to="/">
-                <img src="https://logodownload.org/wp-content/uploads/2014/04/amazon-logo-4.png" id="logo"/>
+                <img src="https://logodownload.org/wp-content/uploads/2014/04/amazon-logo-4.png" id="logo" alt="amazon logo"/>
             </Link>
             
             <div className="container">

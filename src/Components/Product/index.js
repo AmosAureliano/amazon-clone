@@ -4,7 +4,7 @@ import './style.css';
 export default function Product({id, title, image, price, rating}){
     return(
         <div className="product">
-            <img src={image} />
+            <img src={image} alt=""/>
             <p>{title}</p>
             <p className="product-price">
                 <small>R$</small>
@@ -14,7 +14,6 @@ export default function Product({id, title, image, price, rating}){
                 {
                     Array(rating).fill().map((_) =>(
                         <p>⭐</p>
-
                     ))
                 }
             </div>
